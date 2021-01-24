@@ -1,7 +1,7 @@
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr #pip install speechRecognition
 import datetime
-import wikipedia #pip install wikipedia
+import wikipedia 
 import webbrowser
 import os
 import smtplib
@@ -106,4 +106,4 @@ if __name__ == "__main__":
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my friend harry bhai. I am not able to send this email")
+                speak("Sorry my friend mukul bhai. I am not able to send this email")
